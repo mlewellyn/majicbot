@@ -1,0 +1,386 @@
+1584230294508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofile5aFOSs"
+1584230295684	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584230298035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584230298035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584230298040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584230298041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584230302977	Marionette	INFO	Listening on port 52212
+1584230303232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584299647142	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofileTrHzcI"
+1584299648121	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584299649880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584299649880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584299649881	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584299649881	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584299654676	Marionette	INFO	Listening on port 63783
+1584299655187	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+[Child 14376, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1583751780/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
+[Child 14376, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1583751780/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
+[Child 14376, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1583751780/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
+[Child 14376, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1583751780/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
+1584299871354	Marionette	INFO	Stopped listening on port 63783
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+permission: resource://pdf.js/
+1584299723397	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584299729377	Marionette	INFO	Listening on port 63985
+1584299729534	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1584299877146	Marionette	INFO	Stopped listening on port 63985
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584300000537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofile3Rja9m"
+1584300001505	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584300003095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584300003095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584300003095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584300003095	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584300006631	Marionette	INFO	Listening on port 64806
+1584300006835	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1584300012210	Marionette	INFO	Stopped listening on port 64806
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584300050232	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofilepSCKUI"
+1584300051269	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584300053073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584300053073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584300053073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584300053073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584300055938	Marionette	INFO	Listening on port 64920
+1584300056069	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1584300062582	Marionette	INFO	Stopped listening on port 64920
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584300389743	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofileEDbabG"
+1584300390595	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584300391954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584300391954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584300391954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584300391954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584300395746	Marionette	INFO	Listening on port 65514
+1584300396064	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1584300405902	Marionette	INFO	Stopped listening on port 65514
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+JavaScript error: https://www.nike.com/assets/measure/data-capture/cic-main/dcm.js, line 8: SecurityError: The operation is insecure.
+[Child 13476, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1583751780/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584302670046	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofilem9IsEz"
+1584302670857	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584302672623	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584302672623	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584302672623	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584302672624	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584302675691	Marionette	INFO	Listening on port 52096
+1584302675828	Marionette	WARN	TLS certificate errors will be ignored for this session
+1584303697864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofileA6czNy"
+1584303699132	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584303700935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584303700935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584303700936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584303700936	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584303704921	Marionette	INFO	Listening on port 54130
+1584303705272	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: Error: /api/v3/session?timestamp=1584303712747 could not parse JSON
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: t is undefined
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+1584303715531	Marionette	INFO	Stopped listening on port 54130
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584469484228	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofile8yBs85"
+1584469485295	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584469487385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584469487385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584469487385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584469487385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584469492096	Marionette	INFO	Listening on port 64344
+1584469492221	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: Error: /api/v3/session?timestamp=1584469498859 could not parse JSON
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: t is undefined
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+1584469500404	Marionette	INFO	Stopped listening on port 64344
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584469634260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofileTgo3lB"
+1584469635009	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584469636843	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584469636844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584469636844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584469636844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584469640805	Marionette	INFO	Listening on port 64572
+1584469641160	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: Error: /api/v3/session?timestamp=1584469646341 could not parse JSON
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: t is undefined
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+1584469653400	Marionette	INFO	Stopped listening on port 64572
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584470979952	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofilebQJK1o"
+1584470980798	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584470982569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584470982569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584470982569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584470982569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584470985987	Marionette	INFO	Listening on port 49711
+1584470986331	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: Error: /api/v3/session?timestamp=1584470991750 could not parse JSON
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: t is undefined
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+1584470993046	Marionette	INFO	Stopped listening on port 49711
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584477837248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofilejLaFEc"
+1584477837993	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584477839664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584477839664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584477839664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584477839664	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+1584477844846	Marionette	INFO	Listening on port 55055
+1584477845122	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: Error: /api/v3/session?timestamp=1584477851364 could not parse JSON
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: t is undefined
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+1584477870364	Marionette	INFO	Stopped listening on port 55055
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584478340678	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofileSX6Hvp"
+1584478341415	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584478343069	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584478343070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584478343070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584478343070	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584478348083	Marionette	INFO	Listening on port 55677
+1584478348563	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: Error: /api/v3/session?timestamp=1584478355330 could not parse JSON
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: t is undefined
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+1584478363658	Marionette	INFO	Stopped listening on port 55677
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584482980266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofileRahZC4"
+1584482981120	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584482982617	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584482982617	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584482982617	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584482982617	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584482987334	Marionette	INFO	Listening on port 61473
+1584482987723	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: Error: /api/v3/session?timestamp=1584482995613 could not parse JSON
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: t is undefined
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+JavaScript error: https://www.footlocker.com/built/60/1.client.js, line 1: TypeError: e.setAttribute is not a function
+1584483000385	Marionette	INFO	Stopped listening on port 61473
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1584485013170	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Mary\\AppData\\Local\\Temp\\rust_mozprofilewkU3u1"
+1584485013962	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584485015515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584485015515	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584485015516	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584485015516	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584485018552	Marionette	INFO	Listening on port 64245
+1584485018982	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+1584485026354	Marionette	INFO	Stopped listening on port 64245
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 680: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

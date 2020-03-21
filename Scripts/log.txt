@@ -1,0 +1,3 @@
+INFO:pytest_selenium.pytest_selenium:Capabilities from markers: {}
+INFO:pytest_selenium.pytest_selenium:Capabilities from markers: {}
+INFO:pytest_selenium.pytest_selenium:Capabilities from markers: {}

@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <title>login</title>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway&display=swap">
+      <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+      <link rel="stylesheet" href="css/indexstyle.css">
+	   <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onCapLoad"></script>
+	<style>
+		::-webkit-scrollbar-track {
+			border-radius: 10px;
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+
+		::-webkit-scrollbar {
+			width: 3px;
+			height: 3px;
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+
+		::-webkit-scrollbar-thumb {
+			border-radius: 10px;
+			background-color: #ffba00;
+		}
+
+		body {
+			background-color: #000;
+			margin: 0 auto;
+			font-family: 'Roboto', sans-serif;
+		}
+
+		.cap-window {
+			
+			background-size: cover;
+			background-color: grey;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			height: 340px;
+			width: 600px;
+			border-radius: 5px;
+			transform: translate(-50%, -50%);
+			box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.9);
+		}
+
+		.cap-brand {
+			position: absolute;
+			top: -50px;
+			left: calc(50% - 50px);
+			width: 100px;
+			text-align: center;
+		}
+
+		.cap-con {
+			width: 100%;
+			height: 76px;
+			margin-top: 60px;
+			text-align: center;
+		}
+
+		.cappin {
+			display: inline-block;
+		}
+
+		.texterx {
+			width: 80%;
+			height: 50px;
+			display: inline-block;
+			background: #0b0b0d;
+			margin-top: 10px;
+			position: relative;
+		}
+
+		.texterx-icon {
+			height: 50px;
+			width: 50px;
+			background: rgba(0, 0, 0, 0.2);
+			text-align: center;
+			padding-top: 15px;
+			float: left;
+			font-size: 20px;
+			color: #ffa501;
+		}
+
+		.texterx-sec {
+			height: 50px;
+			width: calc(100% - 50px);
+			text-align: left;
+			line-height: 50px;
+			display: inline-block;
+			color: #aaa;
+			float: right;
+			padding-left: 2%;
+		}
+		
+		.drag-top {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 80px;
+			height: 30px;
+			z-index: 999;
+			-webkit-user-select: none;
+			-webkit-app-region: drag;
+		}
+		
+		.window-options {
+			position: fixed;
+			height: 30px;
+			width: 80px;
+			background: transparent;
+			top: 0;
+			right: 0;
+		text-align: center;
+		}
+
+		.window-icon {
+			width: 40px;
+			height: 30px;
+			text-align: center;
+			line-height: 30px;
+			font-size: 20px;
+			float: right;
+			color: #aaa;
+			background: rgba(0,0,0,0.2);
+			cursor: pointer;
+			display: inline-block;
+		}
+
+		.window-icon:hover {
+			opacity: 0.5;
+		}
+		
+		.setterbum {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 20px;
+			height: 40px;
+			width: 100%;
+		} 
+		
+		.price-it-up {
+			background: #ffa500;
+			height: 40px;
+			width: 70%;
+			display: inline-block;
+			cursor: pointer;
+			text-align: center;
+			line-height: 40px;
+			color: #333;
+			vertical-align: middle;
+		}
+		
+	</style>
+    </head>
+
+    <body>
+		<div class="drag-top"></div>
+      <div class="window-options">
+         <div style="padding-top: 5px;" id="close" onclick="minimize()" class="window-icon"><span class="lnr lnr-cross"></span>
+         </div>
+         
+      </div>
+
+	<div class="cap-window">
+      <!-- partial:index.partial.html -->
+      <div class="login-window">
+<div class="waves">
+    <div class="wave wave_1"><img src="css/img/flags/majicTransparentLogo.png" alt="" width="100" height="100" class="brandlogo img-fluid rounded-circle"/></div>
+    <div class="wave wave_2"></div>
+    <div class="wave wave_3"></div>
+    <div class="wave wave_4"></div>
+    <div class="wave wave_5"></div>
+  </div>
+        <!--<div class="brandlogo"><img src="css/img/flags/majicTransparentLogo.png" alt="" width="100" height="100" class="brandlogo img-fluid rounded-circle"/></div>
+<-->
+
+        <!--<div class="center-stripe1"><img src="css/img/flags/majicTransparentLogo.png" alt="" width="100" height="100"/></div>
+        <div class="center-stripe2"><img src="css/img/flags/fr.png" alt="" width="70" height="70" class="rounded-circle"/></div>
+        <div class="center-stripe3"><img src="css/img/flags/uk.png" alt="" width="70" height="70" class="rounded-circle"/></div>
+<-->
+        <div class="login-title"><i>Majic</i></div>
+        <div class="login-info">Access your <b>Majic</b> dashboard</div>
+
+        <div style="width:60%;margin-top: -10px;" class="create-row">
+          <div class="inputicon"><i class="fas fa-key"></i></div>
+          <input class="createinput" id="key" placeholder="activation key  xxxx-xxxx-xxxx-xxxx ">
+        </div>
+
+        <a href="signup.jsp" style="text-decoration: none;"><div class="ordiscordsignin"><span>SIGNUP</b></span></div></a>
+
+        <div class="login-button" id="loginButton">login</div>
+
+      </div>
+		</div>
+      <!-- partial -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script>
+        $("#loginButton").click(function () {
+          $.post("api/login
+            key: $("#key").val()
+          }, function (data)
+            var response = JSON.parse(data);
+            if (response.status == "redirect
+              window.location.href = response.message;
+            } else
+              Materialize.toast(response.message, 2500, "rounded
+          });
+      ></script>
+	   <script>
+            var app = require('electron').remote; 
+
+            // Close app 
+            document.getElementById("close").addEventListener("click", () => {
+                app.BrowserWindow.getFocusedWindow().close();
+            }, false);
+
+            // Close app 
+            document.getElementById("devtools").addEventListener("click", () => {
+                app.BrowserWindow.getFocusedWindow().openDevTools();
+            }, false);   
+        </script>
+    </body>
+
+</html>

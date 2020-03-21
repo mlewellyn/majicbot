@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+      <meta charset="UTF-8">
+      <title>login</title>
+      <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.1/css/all.css'>
+      <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway&display=swap'>
+      <link rel='stylesheet' href='https://cdn.linearicons.com/free/1.0.0/icon-font.min.css'>
+      <link rel="stylesheet" href="css/login.css">
+    </head>
+
+    <body>
+      <!-- partial:index.partial.html -->
+      <div class="login-window">
+
+        <div class="bot-logo"><img src="https://codeyellow.io/img/newassets/templogo.png" class="brandlogo"></div>
+
+
+        <div class="center-stripe1"></div>
+        <div class="center-stripe2"></div>
+        <div class="center-stripe3"></div>
+
+        <div class="login-title">login</div>
+        <div class="login-info">login now to access your <b>codeyellowraffle</b> dashboard</div>
+
+        <div style="width:60%;margin-top: -10px;" class="create-row">
+          <div class="inputicon"><i class="fas fa-key"></i></div>
+          <input class="createinput" id="key" placeholder="activation key  xxxx-xxxx-xxxx-xxxx ">
+        </div>
+
+        <a href="api/discord?action=login" style="text-decoration: none;"><div class="ordiscordsignin"><span>or login with <b>discord</b></span></div></a>
+
+        <div class="login-button" id="loginButton">login</div>
+
+      </div>
+      <!-- partial -->
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+      <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+      <script src='js/materialize.js'></script>
+      <script>
+        $("#loginButton").click(function () {
+          $.post("api/login", {
+            key: $('#key').val()
+          }, function (data) {
+            var response = JSON.parse(data);
+            if (response.status == 'redirect') {
+              window.location.href = response.message;
+            } else {
+              Materialize.toast(response.message, 2500, "rounded");
+            }
+          });
+        });
+      </script>
+    </body>
+
+</html>

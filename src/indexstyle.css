@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background: #000;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.login-window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 640px;
+  height: 380px;
+  background: #000;
+  border-radius: 50px;
+  border: 2px dashed #2F2727;
+}
+
+.bot-logo {
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  background: #000;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 23;
+  z-index: 9999;
+}
+
+.brandlogo {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+}
+
+.bot-title {
+  border-bottom-right-radius: 50px;
+  background: #212126;
+  height: 70px;
+  width: 400px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 85px;
+  overflow: hidden;
+  z-index: 9998;
+}
+
+
+.window-c {
+  width: 35px;
+  height: 40x;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  color: #aaa;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.window-c:hover {
+  color: #eee;
+}
+
+.center-stripe1 {
+  position: absolute;
+  left: calc(50% - 90px);
+  top: -25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  background: #909090;
+  text-align: center;
+  display: inline-block;
+  animation-name: buttonflip;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.center-stripe2 {
+  position: absolute;
+  left: calc(50% - 25px);
+  top: -25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  background: #909090;
+  text-align: center;
+  display: inline-block;
+  animation-name: buttonflip;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.center-stripe3 {
+  position: absolute;
+  left: calc(50% + 40px);
+  top: -25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  background: #909090;
+  text-align: center;
+  display: inline-block;
+  animation-name: buttonflip;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.login-title {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  line-height: 30px;
+  margin-top: 120px;
+}
+
+.login-info {
+  width: 60%;
+  height: 60px;
+  font-size: 13.5px;
+  line-height: 15px;
+  color: #aeaeae;
+  margin-left: 20%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.login-button {
+  width: 250px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  font-size: 15px;
+  background: purple;
+  color: #fff;
+  left: calc(50% - 125px);
+  bottom: -27.5px;
+  position: absolute;
+  border-radius: 35px;
+  cursor: pointer;
+  font-weight: bold;
+  animation-name: buttonflip;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.login-button:hover {
+  font-weight: normal;
+}
+
+
+.create-row {
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+    background:  #28282e;
+    margin-bottom: 10px;
+	position: relative;
+	border-radius: 25px;
+	outline: none;
+}
+
+.checkoutinput:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	lefT: -5px;
+	top: -5px;
+	width: calc(100% + 10px);
+	height: calc(100% + 10px);
+	background: #28282e;
+	border-radius: 35px;
+}
+
+
+.inputicon {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    float: left;
+    color: mediumpurple;
+    background: rgba(0,0,0,0.3);
+	border-radius: 25px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.createinput {
+    height: 50px;
+    border: none;
+    font-size: 15px;
+    background: #28282e;
+    padding-left: 10px;
+    width: calc(100% - 50px);
+    color: #fff;
+    opacity: 0.8;
+    position: relative;
+    z-index: 9999;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding-right: 20px;
+	outline: none;
+}
+
+.ordiscordsignin {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+}
+
+.ordiscordsignin span {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.ordiscordsignin span:hover {
+  opacity: 1;
+}
+
+@keyframes buttonflip {
+  0%   {transform: rotateX(-90deg);}
+  100% {transform: rotateX(0deg);}
+}
+
+
+
+#toast-container {
+  min-width: 8%;
+  top: 5%;
+  right: 3%;
+  display: block;
+  position: fixed;
+  z-index: 10001;
+}
+
+.toast {
+  /*border-radius: 2px;*/
+  top: 0;
+  width: auto;
+  clear: both;
+  margin-top: 10px;
+  position: relative;
+  max-width: 100%;
+  height: 48px;
+  line-height: 48px;
+  background-color: #fbcf4d;
+  padding: 0 25px;
+  font-size: 15px;
+  /* font-weight: bold; */
+  color: #333;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  float: right;
+  /* font-family: 'Amiko', sans-serif; */
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.5));
+}
+
+.toast .btn,
+.toast .btn-large,
+.toast .btn-flat {
+  margin: 0;
+  margin-left: 3rem;
+}
+
+.toast.rounded {
+  border-radius: 25px !important;
+}
+
+.toast {
+  float: right;
+}
