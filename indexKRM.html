@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <title>KRM Dashboard</title>
+
+  <link rel="stylesheet" type="text/css" href="assets/lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/keen-dashboards.css" />
+  <link rel="stylesheet" type="text/css" href="examples/connected-devices/connected-devices.css" />
+  <!-- stylesheets -->
+  	<link rel="stylesheet" href="Sliding_login_panel_jquery/css/slyle.css" type="text/css" media="screen" />
+  	<link rel="stylesheet" href="Sliding_login_panel_jquery/css/slide.css" type="text/css" media="screen" />
+  	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+  	<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+  	<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+  	<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+  	<style type="text/css">
+  	body,td,th {
+	color: #359C8F;
+}
+    </style>
+	
+  	<!-- PNG FIX for IE6 -->
+  	<!-- http://24ways.org/2007/supersleight-transparent-png-in-ie6 -->
+	<!--[if lte IE 6]>
+		<script type="text/javascript" src="js/pngfix/supersleight-min.js"></script>
+	<![endif]-->
+	 
+    <!-- jQuery - the core -->
+	<script src="header/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+	<!-- Sliding effect -->
+	<script src="header/js/slide.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="jQueryAssets/jquery.ui-1.10.4.button.min.js" type="text/javascript"></script>
+	<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+$(document).ready(function(){
+	$(".trigger").click(function(){
+		$(".panel").toggle("fast");
+		$(this).toggleClass("active");
+		return false;
+	});
+});
+</script>
+
+
+  
+</head>
+<body class="application">
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      
+        <!-- Panel -->
+<div id="toppanel">
+	<div id="panel">
+		<div class="content clearfix">
+        <div class="right col-lg-7">
+				<h1> <a href="http://www.krminc.com/" target="_blank">Welcome to the KRM Dashboard</a></h1>
+				<h2></h2>	
+                
+				<p class="grey"></p>
+				<h2>Documents:</h2>
+				<p class="grey"><ul><li><a href="Automated.pdf" target="_blank">Automated Testing White Paper</a></li></ul>
+</p>
+			</div>
+            
+<div class="right">
+			  <h1></h1>
+				<h2></h2>		
+				<p class="grey">&nbsp;</p>
+				<h2></h2>
+				<p class="grey"></p>
+			</div>
+			<div class="left">
+				<h1></h1>
+				<h2></h2>		
+				
+			  <h2></h2>
+				<p class="grey"></p>
+			</div>
+			<div class="left">
+				<!-- Login Form -->
+				
+			</div>
+			<div class="left right">			
+				
+			</div>
+		</div>
+</div> <!-- /login -->	
+
+	<!-- The tab on top -->	
+	<div class="tab">
+		<ul class="login">
+			<li class="left">&nbsp;</li>
+			<li>KRM Dashboard</li>
+			<li class="sep">|</li>
+			<li id="toggle">
+				<a id="open" class="open" href="#">Info</a>
+				<a id="close" style="display: none;" class="open" href="#">Close</a>			
+			</li>
+			<li class="right">&nbsp;</li>
+		</ul> 
+	</div> <!-- / top -->
+	
+</div> <!--panel --><!--panel -->
+       
+      <a class="navbar-brand" href="./"></a></div>
+    
+
+    </div>
+  </div>
+<img src="new_logoTransparentHEADERSMALL.png" width="400" height="89" alt=""/>
+<div align="right">
+  <a href="index.html"<button class="btn btn-sm btn-primary " id="btn-add-panel" onClick="index.html">
+    <i class="glyphicon glyphicon-minus"></i> LOG OUT
+</button></a>
+     </div><br><br>
+  <div class="container-fluid">
+    <div class="row">
+       <div class="chart-title">
+         
+       <div class="col-sm-2" data-display="overlay">
+        <div class="chart-wrapper">
+          
+          <div class="chart-stage">
+            <div class="row">
+              <div class="col-sm-12">
+                 <object data="test.html" width="100%" height="900">
+    <embed src="test.html" width="100%" height="900"> </embed>
+    Error: Embedded data could not be displayed.
+</object>
+              </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="col-sm-10">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+           Widgets
+          </div>
+          <div class="chart-stage">
+           
+              <div class="col-sm-12">
+              <object data="drag-drop-panels/testerPanel.jsp" width="100%" height="900">
+    <embed src="drag-drop-panels/testerPanel.jsp" width="100%" height="900"> </embed>
+    Error: Embedded data could not be displayed.
+</object>
+               
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+
+     
+</div>
+
+  <!-- Mapbox.js Assets -->
+  <script type="text/javascript" src='https://api.tiles.mapbox.com/mapbox.js/v2.0.0/mapbox.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.0/mapbox.css' rel='stylesheet' />
+  <script type="text/javascript" src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-heat/v0.1.0/leaflet-heat.js'></script>
+
+  <script type="text/javascript" src="assets/lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/lib/jquery-knob/dist/jquery.knob.min.js"></script>
+
+  <script type="text/javascript" src="assets/lib/keen-js/dist/keen.min.js"></script>
+  <script type="text/javascript" src="assets/js/meta.js"></script>
+
+  <script type="text/javascript" src="examples/connected-devices/connected-devices.js"></script>
+  
+<footer class="footer">
+      <div class="container">
+        <p class="text-muted">KRM Associates, Inc.</p>
+      </div>
+    </footer>
+
+</body>
+</html>

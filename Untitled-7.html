@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+<!--multiple is set to allow multiple files to be selected-->
+
+
+</body>
+
+<script>
+var dir = "../";
+
+_getAllFilesFromFolder(dir + "folder");
+
+
+var _getAllFilesFromFolder = function(dir) {
+
+    var filesystem = require("fs");
+    var results = [];
+
+    filesystem.readdirSync(dir).forEach(function(file) {
+
+        file = dir+'/'+file;
+        var stat = filesystem.statSync(file);
+
+        if (stat && stat.isDirectory()) {
+            results = results.concat(_getAllFilesFromFolder(file))
+        } else results.push(file);
+
+    });
+
+    return results;
+
+};
+</script>
+
+</html>

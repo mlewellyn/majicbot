@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<script type="text/javascript"
+    src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript"
+    src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css"
+    href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css"/>
+
+</head>
+
+<body>
+<div id="resizeDiv"></div>
+
+<script>
+$('#resizeDiv')
+    .draggable()
+    .resizable();
+	</script>
+    
+    <script>
+	$('#resizeDiv')
+    .resizable({
+        start: function(e, ui) {
+            alert('resizing started');
+        },
+        resize: function(e, ui) {
+         
+        },
+        stop: function(e, ui) {
+            alert('resizing stopped');
+        }
+    });
+	
+	</script>
+    
+    
+    
+</body>
+</html>

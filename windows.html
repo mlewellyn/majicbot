@@ -1,0 +1,28 @@
+<html>
+<head>
+<title></title>
+ 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+ 
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.js-newWindow').click(function (event) {
+                event.preventDefault();
+ 
+                var $this = $(this);
+ 
+                var url = $this.attr("href");
+                var windowName = "popUp";
+                var windowSize = $this.data("popup");
+ 
+                window.open(url, windowName, windowSize);
+            });
+        });
+    </script>
+</head>
+ 
+<body>
+    <a href="http://192.168.250.127:8000/en-US/app/search/flashtimeline?q=search%20*&earliest=rt-5m&latest=rt" class="js-newWindow" data-popup="width=900,height=900"><img src="Browse-BrowsingWeb-fullscreen-en.png" width="16" height="16" alt=""/></a>
+   
+</body>
+</html>

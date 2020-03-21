@@ -1,0 +1,33 @@
+<html>
+<head>
+</head>
+<body>
+
+<script>
+function allnumeric(shepaccount)
+      {
+      var numbers = /^[0-9]+$/;
+      if(shepaccount.value.match(numbers))
+      {
+      alert('Your Registration number has accepted....');
+      document.registrationForm.shepaccount.focus();
+      return true;
+      }
+      else
+      {
+      alert('Please input numeric characters only');
+      document.registrationForm.shepaccount.focus();
+      return false;
+      }
+      }
+
+</script>
+
+<form name="registrationForm" style="display:inline-block; text-align: center;" action="" method="POST">
+
+<input name="shepaccount" type="text" id="shepaccount" value=""/>
+<input type="submit" name="submit" onClick="javascript:allnumeric(shepaccount)">
+</form>
+</body>
+</html>
+

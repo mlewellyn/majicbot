@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<head>
+    <script type="text/javascript">
+        function OnDropBody (event) {
+            alert ("Please drop the files into the textarea.");
+            return false;
+        }
+
+        function OnDropTextarea (event) {
+            if (event.dataTransfer) {
+                if (event.dataTransfer.files) {
+                    var target = document.getElementById ("target");
+                    target.value = "";
+                    for (var i = 0; i < event.dataTransfer.files.length; i++) {
+                        var file = event.dataTransfer.files[i];
+                        if ('name' in file) {
+                            var fileName = file.name;
+                        }
+                        else {
+                            var fileName = file.fileName;
+                        }
+                        if ('size' in file) {
+                            var fileSize = file.size;
+                        }
+                        else {
+                            var fileSize = file.fileSize;
+                        }
+
+                        target.value += (i+1) + ". file -- name: " + fileName + ", size: " + fileSize + " bytes\n";
+                    }
+                }
+                else {
+                    alert ("Your browser does not support the files property.");
+                }
+            }
+            else {
+                alert ("Your browser does not support the dataTransfer property.");
+            }
+            if (event.stopPropagation) {
+                event.stopPropagation ();
+            }
+            else {
+                event.cancelBubble = true;
+            }
+            return false;
+        }
+    </script>
+</head>
+<body ondragenter="return false;" ondragover="return false;" ondrop="return OnDropBody (event);">
+    Please drag some files into this browser window and drop them in the following field:<br />
+    <textarea id="target" rows="5" cols="50" spellcheck="false" 
+        ondragenter="return false;" ondragover="return false;" 
+        ondrop="return OnDropTextarea (event);">
+    </textarea>
+    <br /><br />
+    In Safari, please drag some text within this browser window first and drag files next.
+</body>
+</html>
